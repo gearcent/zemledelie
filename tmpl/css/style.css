@@ -1,0 +1,436 @@
+@font-face {
+    font-family: 'MontserratLight';
+    src: url('../fonts/MontserratLight.eot');
+    src: url('../fonts/MontserratLight.eot') format('embedded-opentype'),
+         url('../fonts/MontserratLight.woff2') format('woff2'),
+         url('../fonts/MontserratLight.woff') format('woff'),
+         url('../fonts/MontserratLight.ttf') format('truetype'),
+         url('../fonts/MontserratLight.svg#MontserratLight') format('svg');
+}
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('../fonts/MontserratBold.eot');
+    src: url('../fonts/MontserratBold.eot') format('embedded-opentype'),
+         url('../fonts/MontserratBold.woff2') format('woff2'),
+         url('../fonts/MontserratBold.woff') format('woff'),
+         url('../fonts/MontserratBold.ttf') format('truetype'),
+         url('../fonts/MontserratBold.svg#MontserratBold') format('svg');
+}
+@font-face {
+    font-family: 'MontserratRegular';
+    src: url('../fonts/MontserratRegular.eot');
+    src: url('../fonts/MontserratRegular.eot') format('embedded-opentype'),
+         url('../fonts/MontserratRegular.woff2') format('woff2'),
+         url('../fonts/MontserratRegular.woff') format('woff'),
+         url('../fonts/MontserratRegular.ttf') format('truetype'),
+         url('../fonts/MontserratRegular.svg#MontserratRegular') format('svg');
+}
+@font-face {
+    font-family: 'MontserratExtraBold';
+    src: url('../fonts/MontserratExtraBold.eot');
+    src: url('../fonts/MontserratExtraBold.eot') format('embedded-opentype'),
+         url('../fonts/MontserratExtraBold.woff2') format('woff2'),
+         url('../fonts/MontserratExtraBold.woff') format('woff'),
+         url('../fonts/MontserratExtraBold.ttf') format('truetype'),
+         url('../fonts/MontserratExtraBold.svg#MontserratExtraBold') format('svg');
+}
+
+@font-face {
+    font-family: 'MontserratSemiBold';
+    src: url('../fonts/MontserratSemiBold.eot');
+    src: url('../fonts/MontserratSemiBold.eot') format('embedded-opentype'),
+         url('../fonts/MontserratSemiBold.woff2') format('woff2'),
+         url('../fonts/MontserratSemiBold.woff') format('woff'),
+         url('../fonts/MontserratSemiBold.ttf') format('truetype'),
+         url('../fonts/MontserratSemiBold.svg#MontserratSemiBold') format('svg');
+}
+
+@font-face {
+    font-family: 'MontserratItalic';
+    src: url('../fonts/MontserratItalic.eot');
+    src: url('../fonts/MontserratItalic.eot') format('embedded-opentype'),
+         url('../fonts/MontserratItalic.woff2') format('woff2'),
+         url('../fonts/MontserratItalic.woff') format('woff'),
+         url('../fonts/MontserratItalic.ttf') format('truetype'),
+         url('../fonts/MontserratItalic.svg#MontserratItalic') format('svg');
+}
+
+
+
+header {
+    height: 104px;
+    background-color: #858F14;
+    padding-top: 20px;
+}
+
+.text_logo {
+    font: 36px MontserratExtraBold, sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.text2_logo {
+    font: 14px MontserratLight, sans-serif;
+    color: #FFFFFF;
+}
+
+.menu_top {
+    margin-top: 30px;
+    float: right;
+}
+
+.menu_top li {
+    list-style-type: none;
+    float: left;
+    margin-right: 20px;
+}
+
+.menu_top li a {
+    font: 14px MontserratLight, sans-serif;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.search {
+    margin-top: 30px;
+}
+
+.nav_top {
+    padding: 0;
+}
+
+.sect_menu {
+    padding-top: 20px;
+}
+
+.nav_top li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.nav_top li  a {
+    font: 16px MontserratSemiBold, sans-serif;
+    color: #4D4F1D;
+    
+}
+
+.nav_top li img {
+    margin-left: 5px;
+}
+
+.bread {
+    margin-top: 40px;
+}
+
+.bread a {
+    font: 13px MontserratSemiBold, sans-serif;
+    color: #858F14;
+    text-transform: uppercase;
+}
+
+.bread img {
+    margin: 0 5px;
+}
+
+.cont2 {
+    margin-top: 40px;
+}
+
+.sect_content .text1 {
+    font: 39px MontserratBold, sans-serif;
+    color: #111111;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.sect_content p {
+    font: 16px MontserratRegular, sans-serif;
+    color: #000000;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.img_box {
+    text-align: center;
+}
+
+.img_box img {
+    margin: 20px auto;
+    display: block;
+    
+}
+
+.list1 {
+    margin-bottom: 20px;
+    
+}
+
+.sect_content p strong {
+    font-family: MontserratSemiBold!important;
+}
+
+.under_img {
+    font-family: MontserratItalic!important;
+}
+
+.list1 li {
+    font: 16px MontserratRegular, sans-serif;
+    color: #000000;
+    line-height: 1.3;
+    list-style-type: disc;
+}
+
+.list2 li {
+    list-style-type: square;
+}
+
+.btn_zakaz {
+    font: 14px MontserratBold, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #FF3A02;
+    padding: 12px 35px;
+    border: 0;
+    border-radius: 0;
+}
+
+.box_btn {
+    text-align: center;
+}
+
+.sect_content .comm {
+    font: 24px MontserratBold, sans-serif;
+    color: #000;
+    margin-top: 30px;
+}
+
+.block_comm {
+    background-color: #EAEAEA;
+    margin: 20px auto;
+    padding: 15px 30px;
+}
+
+.top_comm {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #141414;
+}
+
+.top_comm p{
+    font: 20px MontserratRegular, sans-serif;
+    color: #000000;
+    margin-bottom: 3px;
+}
+
+.top_comm a {
+    font: 14px MontserratRegular, sans-serif;
+    color: #000000;
+    text-decoration: none;
+}
+
+.box_comm {
+    margin-top: 20px;
+}
+
+.box_comm textarea{
+    height: 78px;
+    background: #FFFFFF;
+    border: 1px solid #7C7C7C;
+    font: 14px MontserratRegular, sans-serif;
+    color: #7C7C7C;
+    padding: 15px;
+    width: 100%;
+}
+
+.ava {
+    margin-right: 20px;
+}
+
+.box_comm .name_comm {
+    font: 14px MontserratBold, sans-serif;
+    color: #3F5D9B;
+    margin-bottom: 0;
+}
+
+.box_comm .text_comm {
+    font: 14px MontserratRegular, sans-serif;
+    color: #000;
+    margin-bottom: 7px;
+}
+
+.box_comm a {
+    color: #3F5D9B;
+    font: 14px MontserratRegular, sans-serif;
+    margin-right: 20px;
+}
+
+.nav_footer {
+    margin-top: 30px;
+}
+
+.nav_footer li {
+    margin-right: 70px;
+}
+
+footer {
+    background-color: #858F14;
+    height: 70px;
+    margin-top: 30px;
+}
+
+.box_sidebar .t1_sidebar {
+    font: 13px MontserratRegular, sans-serif;
+    text-transform: uppercase;
+    color: #858F14;
+    margin-bottom: 10px;
+}
+
+.box_sidebar .t2_sidebar {
+    font: 14px MontserratBold, sans-serif;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.sidebar_right {
+    margin-left: 50px;
+}
+
+.box_sidebar .t_comm {
+    font: 12px MontserratLight, sans-serif;
+    color: #525252!important;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box_sidebar {
+    margin-bottom: 30px;
+}
+
+.disp_b_768 {
+    display: none;
+}
+
+.product-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px 0 60px;
+}
+
+.product-wrapper .product-image {
+    flex: 0 0 60%;
+    position: relative;
+}
+
+.product-wrapper .product-image .sale {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    background: url(../images/sale.png) no-repeat center/cover;
+    top: -50px;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.product-wrapper .product-image .sale .sale-text {
+    transform: rotate(36.3deg);
+}
+
+.product-wrapper .product-image .sale .sale-text p:first-child {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.product-wrapper .product-image .sale .sale-text p:last-child {
+    font-weight: bold;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.product-wrapper .product-image .sale .sale-text p {
+    color: #fff;
+    margin: 0;
+}
+
+.product-wrapper .product-image .sale .sale-text p + p {
+    margin: 0;
+}
+
+.product-wrapper .product-image .sale .sale-text p small {
+    font-size: 16px;
+    margin-left: -5px;
+}
+
+.product-wrapper .product-form {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.product-wrapper form {
+    align-self: flex-end;
+    padding: 50px 40px;
+    background-color: #CFCFCF;
+    max-width: 500px;
+    margin: 30px auto 0;
+}
+
+.form-label {
+    background-color: #7E0019;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.product-wrapper form input {
+    width: 100%;
+    background-color: #fff;
+    color: #808080;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 2px;
+}
+
+.product-wrapper form input + input {
+    margin-top: 10px;
+}
+
+.product-wrapper form button {
+    margin-top: 25px;
+    text-align: center;
+    background: linear-gradient(180deg, #7E0019 0%, #97001E 0.01%, #42000D 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    padding: 12px 0;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    width: 100%;
+}
+
+.product-wrapper form p {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
